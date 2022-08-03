@@ -16,7 +16,7 @@ const Button = (props)=>{
     useEffect(() => {
         const timer = setTimeout(() => {
         setIsShown(true);
-        }, 75);
+        }, 750);
         return () => clearTimeout(timer);
     }, [handleClick]);
 
